@@ -1,0 +1,51 @@
+.rotate-gear svg {
+    margin-bottom: 2.5px;
+    margin-left: 2px;
+    transition: all 0.3s ease-in-out 0s
+}
+
+.rotate-gear button:hover svg {
+    transform: rotate(180deg) scale(1.25,1.25);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.cloud-stretch svg {
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.cloud-stretch button:hover svg {
+    transform: scale(1.25,1.25);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.faq-burger button .bar {
+    width: 20px;
+    height: 2px;
+    margin: 4px 0;
+    margin-right: 5px;
+    background-color: white;
+}
+
+.faq-burger button .hamburger {
+    padding-top: 2px;
+}
+
+.faq-burger button .top-bar {
+    transform: translateY(0px);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.faq-burger button .bottom-bar {
+    transform: translateY(0px);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.faq-burger button:hover .top-bar {
+    transform: translateY(-2.5px);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.faq-burger button:hover .bottom-bar {
+    transform: translateY(2.5px);
+    transition: all 0.3s ease-in-out 0s;
+}
