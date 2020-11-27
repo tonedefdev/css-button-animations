@@ -49,3 +49,41 @@
     transform: translateY(2.5px);
     transition: all 0.3s ease-in-out 0s;
 }
+
+.faq-side-burger button .side-bar {
+    width: 2px;
+    height: 16px;
+    margin: 3px 0;
+    margin-right: 1px;
+    background-color: white;
+    display: inline-block;
+}
+
+.faq-side-burger button .verticals {
+    margin-left: 5px;
+    margin-top: 2.5px;
+}
+
+.faq-side-burger button:hover .right-bar {
+    transform: translateX(5px);
+    transition: all 0.3s ease-out 0s;
+}
+
+.faq-side-burger button:hover .middle-bar {
+    transform: translateX(2.5px);
+    transition: all 0.3s ease-out 0s;
+}
+
+.faq-side-burger button .right-bar {
+    transform: translateX(0px);
+    transition: all 0.3s ease-out 0s;
+}
+
+.faq-side-burger button .middle-bar {
+    transform: translateX(0px);
+    transition: all 0.3s ease-out 0s;
+}
+
+.container button {
+    margin-top: 5px;
+}
